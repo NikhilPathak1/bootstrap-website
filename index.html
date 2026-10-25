@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil Pathak | IT Portfolio</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: #f4f7fb;
+            color: #1e293b;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #102a43, #176b87);
+            color: white;
+            padding: 80px 0;
+        }
+
+        .profile-img {
+            width: 240px;
+            height: 240px;
+            object-fit: cover;
+            border: 5px solid white;
+        }
+
+        .section-title {
+            color: #176b87;
+        }
+
+        .skill-card {
+            border: none;
+            border-radius: 12px;
+            transition: transform 0.2s;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark"
+     style="background-color: #102a43;">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Nikhil Pathak</a>
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Interests</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="hero">
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-md-7">
+                <p class="text-info fw-bold">INFORMATION TECHNOLOGY STUDENT</p>
+                <h1 class="display-4 fw-bold">Hello, I'm Nikhil Pathak.</h1>
+                <p class="lead mt-3">
+                    I'm an IT student at the University of North Texas,
+                    interested in networking, cybersecurity, and building
+                    useful technology solutions.
+                </p>
+                <a href="#about" class="btn btn-info btn-lg mt-3">
+                    Learn More About Me
+                </a>
+            </div>
+
+            <div class="col-md-5 text-center">
+                <img src="images/profile.jpg"
+                     alt="Photo for Nikhil Pathak's portfolio"
+                     class="profile-img rounded-circle img-fluid">
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="section-title fw-bold mb-3">About Me</h2>
+        <p class="fs-5">
+            I am pursuing a degree in Information Technology at the
+            University of North Texas. I enjoy learning how computers,
+            networks, and information systems work together. My goal is
+            to develop practical skills and build a career in IT.
+        </p>
+    </div>
+</section>
+
+<section id="skills" class="py-5 bg-white">
+    <div class="container">
+        <h2 class="section-title fw-bold text-center mb-4">
+            My Interests
+        </h2>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card skill-card shadow-sm h-100 p-3">
+                    <div class="card-body">
+                        <h3 class="h5 fw-bold">Networking</h3>
+                        <p>
+                            Learning about IP addressing, routing,
+                            network protocols, and connectivity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card skill-card shadow-sm h-100 p-3">
+                    <div class="card-body">
+                        <h3 class="h5 fw-bold">Cybersecurity</h3>
+                        <p>
+                            Exploring how to protect systems, networks,
+                            and information from security threats.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card skill-card shadow-sm h-100 p-3">
+                    <div class="card-body">
+                        <h3 class="h5 fw-bold">Cloud Computing</h3>
+                        <p>
+                            Learning how cloud services can host
+                            websites and deliver computing resources.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="py-5">
+    <div class="container text-center">
+        <h2 class="section-title fw-bold">Thank You for Visiting!</h2>
+        <p>
+            This website is a small project showcasing my interests
+            and learning journey in Information Technology.
+        </p>
+    </div>
+</section>
+
+<footer class="text-center text-white py-3"
+        style="background-color: #102a43;">
+    <p class="mb-0">&copy; 2026 Nikhil Pathak | Personal Portfolio</p>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
